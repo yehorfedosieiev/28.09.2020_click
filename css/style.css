@@ -1,0 +1,29 @@
+html{
+  font-size: 14px;
+}
+
+button{
+	width: 15rem;
+	height: 5rem;
+}
+
+.tbl{
+  margin: 20px auto;
+  height: 250px;
+  width: 250px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.layout {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px auto;
+}
+
+.tbl td {
+  border: 2px solid black;
+  cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
